@@ -1,0 +1,29 @@
+{
+  "name": "taskmachine",
+  "version": "0.1.0",
+  "description": "A simple task runner",
+  "main": "src/main.js",
+  "bin": {
+    "taskmachine": "src/main.js"
+  },
+  "scripts": {
+    "format": "prettier --single-quote --write src/**/*.js src/*.js"
+  },
+  "keywords": [
+    "task",
+    "runner",
+    "cli",
+    "shell"
+  ],
+  "author": "Heiker (https://github.com/VonHeikemen)",
+  "license": "MIT",
+  "dependencies": {
+    "ansi-colors": "^4.1.1",
+    "color-support": "^1.1.3",
+    "execa": "^4.0.0",
+    "ms": "^2.1.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.4"
+  }
+}
